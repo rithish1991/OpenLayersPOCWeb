@@ -69,7 +69,7 @@ geolocation.on('change', function() {
   el('altitudeAccuracy').innerText = geolocation.getAltitudeAccuracy() + ' [m]';
   el('heading').innerText = geolocation.getHeading() + ' [rad]';
   el('speed').innerText = geolocation.getSpeed() + ' [m/s]';
-  alert(geolocation.getPosition());
+ 
 });
 
 // handle geolocation error.
